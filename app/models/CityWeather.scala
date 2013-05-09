@@ -10,6 +10,7 @@ object CityWeather {
   def fromResponse(resp: Response): CityWeather = {
     val json: JsValue = Json.parse(resp.body)
     val data = json \ "query" \ "results" \ "channel"
+    println(data \ "location" \ "city")
     val cw = CityWeather(
       (data \ "location" \ "city").as[String],
       (data \ "item" \ "condition" \ "temp").as[String]
