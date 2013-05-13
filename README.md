@@ -1,13 +1,17 @@
 Demo - Yahoo Weather using Futures
 ==================================
 A demo app created for my workshop at Cloud Weekend Event.  
-The slides are available here https://www.slideshare.net/tamer_radi/playing-with-scala
+The slides are available [at slide share](https://www.slideshare.net/tamer_radi/playing-with-scala)
 
 Getting Started
 ===============
 First of all, make sure that you have a [working Play installation](http://www.playframework.com/documentation/2.1.1/Installing),  
 Second, Clone the repo  
-Finally, in you console, `cd` to the code directory, and type `play run`
+Third, in you console, `cd` to the code directory, and type `play run`  
+Finally, Check  
+* [http://localhost:9000/](http://localhost:9000/)  
+* [http://localhost:9000/1522328](http://localhost:9000/1522328)  
+* [http://localhost:9000/hot](http://localhost:9000/hot)  
 
 About the Code
 ==============
